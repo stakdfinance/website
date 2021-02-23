@@ -31594,17 +31594,17 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
 }
 @media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 63px;
-    height: 63px;
-  }
-
   .u-header .u-menu-1 {
     margin-top: -33px;
     margin-right: auto;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-image-1 {
+    width: 63px;
+    height: 63px;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-sheet-1 {
     min-height: 148px;
